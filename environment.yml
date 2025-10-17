@@ -1,0 +1,19 @@
+name: dummy_python_packege
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - scipy
+  - matplotlib
+  - seaborn
+  - jupyter
+  - scikit-learn
+  - biopython
+  - pysam
+  - pip
+  - pip:
+    - scanpy
